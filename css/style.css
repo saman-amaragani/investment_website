@@ -1,0 +1,229 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
+body{
+    font-family: border-box;
+    margin : 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif; 
+    line-height: 1.4;
+}
+a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 0.75rem 0;
+  }
+  
+  /* Utility Classes */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+  
+  .text-center {
+    text-align:center;
+  }
+  
+  .text-primary {
+    color: #d67c97;
+  }
+  
+  .bg-light {
+    background: white;
+    color: black;
+  }
+  
+  .bg-dark {
+    background: black;
+    color: white;
+  }
+  
+  .bg-primary {
+    background: #d67c97;
+    color: white;
+  }
+  
+  .l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  
+  .m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  
+  .lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .py-1 { padding: 1.5rem 0; }
+  .py-2 { padding: 2rem 0; }
+  .py-3 { padding: 3rem 0; }
+  
+  .p-1 { padding: 1.5rem; }
+  .p-2 { padding: 2rem; }
+  .p-3 { padding: 3rem; }
+  
+  .btn {
+    display: inline-block;
+    color: white;
+    background: #d67c97;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background: #e62a5f;
+  }
+  
+  .btn-dark {
+    background: black;
+    color: white;
+  }
+  
+  .list {
+    margin: 0.5rem 0;
+    list-style: none;
+  }
+  
+  .list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+  }
+  
+  /* Navbar */
+  #navbar {
+    display: flex;
+    position: sticky;
+    top:0;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+  }
+  
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+  }
+  
+  #navbar ul li a:hover {
+    background: #d67c97;
+    border-radius: 5px;
+  }
+  
+  /* Showcase */
+  #showcase {
+    background: black url(../showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  #showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 105px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Section: What We Do */
+  #what .items {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  #what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #what .items .item i {
+    background: #d67c97;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Section: Who We Are */
+  #who {
+    display: flex;
+  }
+  
+  #who div {
+    flex: 1;
+  }
+  
+  #who .who-img {
+    background: url(../people.jpg) no-repeat center center/cover;
+  }
+  
+  /* Section: Clients */
+  #clients .items {
+    display: flex;
+  }
+  
+  #clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+  
+  /* Section: Contact */
+  #contact {
+    display: flex;
+  }
+  
+  #contact .map, #contact .contact-form {
+    flex: 1;
+  }
+  
+  #contact .contact-form .form-group {
+    margin: 0.75rem;
+  }
+  
+  #contact .contact-form label {
+    display: block;
+  }
+  
+  #contact .contact-form input,
+  #contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  /* map section */
+  /* Set the size of the div element that contains the map */
+.map{
+  height: 500px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
